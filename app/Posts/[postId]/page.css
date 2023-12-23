@@ -1,0 +1,30 @@
+.post{
+    padding: 50px
+}
+
+.post h1{
+    text-align: center; 
+    font-size: 3rem
+}
+
+.post p{
+    padding: 15px;
+    font-size: 2rem;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 850px){
+    .post{
+        padding: 50px 20px;
+    }
+
+    .post h1{
+        font-size: 2rem;
+    }
+
+    .post p{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    }
+}

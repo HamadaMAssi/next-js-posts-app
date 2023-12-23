@@ -1,0 +1,86 @@
+
+
+.form-container {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 85%;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.form-container .left {
+    flex: 1;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.form-container .right {
+    flex: 1;
+    text-align: left;
+}
+
+.form-container h1 {
+    color: #333;
+}
+
+.form-container p {
+    color: #666;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container .in-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.form-container input{
+    width: 45%;
+}
+
+.form-container input,
+.form-container textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-container input:focus,
+.form-container textarea:focus{
+outline: none;
+}
+
+.form-container button {
+    padding: 10px;
+    background-color: #DD4615;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #e6410a;
+}
+
+@media screen and (max-width:850px) {
+    .form-container{
+        flex-direction: column;
+        margin: 4rem auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-container .right{
+        text-align: center;
+        padding-bottom: 35px;
+    }
+
+    .form-container .form-container form{
+        padding-top: 2rem;
+        width: 90%;
+    }
+} 
