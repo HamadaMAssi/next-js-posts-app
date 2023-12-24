@@ -6,7 +6,7 @@ import ContactForm from '../components/ContactForm/ContactForm'
 const page = () => {
   return (
     <div>
-      <Hero cName="hero-mid" heroImg='/11.jpg' title="Our Team" text="" url="" btnClass="hide" buttonText="" />
+      <Hero cName="hero-mid" heroImg='/1.jpg' title="Our Team" text="" url="" btnClass="hide" buttonText="" />
       <AboutUs />
       <ContactForm />
     </div>

@@ -11,7 +11,7 @@ export default function Home() {
   const loadingJSX = <h1>Loading . . .</h1>
   return (
     <main>
-      <Hero cName="hero" heroImg='/4.jpg' title="Boost Your Online Presence" text="Let us manage your social media platforms for maximum exposure and engagement." url="/" btnClass="show" buttonText="Get Started" />
+      <Hero cName="hero" heroImg='/7.jpg' title="Boost Your Online Presence" text="Let us manage your social media platforms for maximum exposure and engagement." url="/" btnClass="show" buttonText="Get Started" />
       <AboutUs />
       <Hero cName="hero-mid" heroImg='/2.jpg' title="" text="" url="" btnClass="hide" buttonText="" />
       <Suspense fallback={loadingJSX}>
