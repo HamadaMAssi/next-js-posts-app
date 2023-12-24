@@ -1,5 +1,7 @@
 .post{
-    padding: 50px
+    padding: 50px;
+    border-top: 1px solid #e6e5e5;
+    border-bottom: 1px solid #e6e5e5;
 }
 
 .post h1{

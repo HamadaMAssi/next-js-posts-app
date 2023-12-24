@@ -6,13 +6,26 @@
     gap: 30px;
 }
 
-.posts-container .post{
+.title-posts-sec{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.posts-container .post {
     padding: 20px;
     border-radius: 5px;
     color: #222;
     background-color: #fff;
     box-shadow: 0px 0px 10px 0px #ececec;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
 }
+
+.posts-container .post:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 15px 0px #dcdcdc;
+}
+
 
 .posts-container h1{
     font-weight: 600;

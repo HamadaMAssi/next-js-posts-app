@@ -1,3 +1,31 @@
+.text-img {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.text-img .text {
+    flex: 1;
+    max-width: 50%;
+}
+
+.text-img h1 {
+    color: #333;
+}
+
+.text-img p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.text-img img {
+    max-width: 50%;
+    border-radius: 8px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+
 .about-container{
     margin: 4rem 6rem;
     text-align: start;
@@ -17,4 +45,22 @@
     .about-container h1{
         text-align: center;
     }
+
+    .text-img {
+        flex-direction: column;
+    }
+    
+    .text-img .text {
+        max-width: 80%; /* Adjusted the max-width for better responsiveness */
+        text-align: center; /* Center-align text on small screens */
+    }
+    
+    .text-img h1 {
+        color: #333;
+    }
+    .text-img img {
+        max-width: 80%;
+        margin-top: 20px;
+    }
+    
 }
