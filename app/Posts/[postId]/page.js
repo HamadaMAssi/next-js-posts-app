@@ -16,7 +16,7 @@ async function page({ params }) {
 
     return (
         <>
-            <Hero cName="hero-mid" heroImg='/4.jpg' title="Post Details" text="" url="" btnClass="hide" buttonText="" />
+            <Hero cName="hero-mid" heroImg='/night.jpg' title="Post Details" text="" url="" btnClass="hide" buttonText="" />
             <div key={postId} className='post'>
                 <h1>{postData.title}</h1>
                 <p>{postData.body}</p>
